@@ -1,5 +1,5 @@
 {% set name = "sphinxext-opengraph" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinxext-opengraph-{{ version }}.tar.gz
-  sha256: cd89e13cc7a44739f81b64ee57c1c20ef0c05dda5d1d8201d31ec2f34e4c29db
+  sha256: 85230ee14d50c97d9db457d4dc4c9f9ea08bc78e7dd6850d615e05705e5c2977
 
 build:
   noarch: python
@@ -17,10 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
+    - setuptools_scm
   run:
-    - python >=3.6
-    - sphinx >=2.0
+    # Not in setup.py, but referenced in code (automatically installed by Sphinx)
+    - docutils
+    - python >=3.7
+    - sphinx >=4.0
 
 test:
   imports:
