@@ -1,5 +1,5 @@
 {% set name = "sphinxext-opengraph" %}
-{% set version = "0.7.3" %}
+{% set version = "0.7.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinxext-opengraph-{{ version }}.tar.gz
-  sha256: 837e5612709b4df7f1715f0832bf7d46cc0a61ebd7bb5aeab28edd6377beaf23
+  sha256: b7db74764f5bc28a32f03ed6bf97a131a5f29dc9aeff8745282a83f6096602e4
 
 build:
   noarch: python
