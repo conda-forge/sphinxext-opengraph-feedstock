@@ -3,11 +3,19 @@ About sphinxext-opengraph-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxext-opengraph-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/wpilibsuite/sphinxext-opengraph
+Home: https://sphinxext-opengraph.readthedocs.io/
 
 Package license: BSD-3-Clause
 
-Summary: Sphinx Extension to enable OGP support
+Summary: Sphinx extension to generate Open Graph metadata
+
+Development: https://github.com/sphinx-doc/sphinxext-opengraph
+
+Documentation: https://sphinxext-opengraph.readthedocs.io/
+
+Sphinx extension to generate Open Graph metadata
+for each page of your documentation.
+
 
 Current build status
 ====================
@@ -143,5 +151,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@CAM-Gerlach](https://github.com/CAM-Gerlach/)
 * [@manics](https://github.com/manics/)
 
