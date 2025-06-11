@@ -18,13 +18,13 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools_scm
+    - flit-core >=3.12
   run:
     # Not in setup.py, but referenced in code (automatically installed by Sphinx)
     - docutils
     - python >={{ python_min }}
-    - matplotlib-base
-    - sphinx >=4.0
+    - matplotlib-base >=3
+    - sphinx >=6
 
 test:
   imports:
@@ -39,7 +39,7 @@ about:
   home: https://github.com/wpilibsuite/sphinxext-opengraph
   summary: Sphinx Extension to enable OGP support
   license: BSD-3-Clause
-  license_file: LICENSE.md
+  license_file: LICENCE.rst
 
 extra:
   recipe-maintainers:
