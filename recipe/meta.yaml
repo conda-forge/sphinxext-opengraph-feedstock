@@ -1,6 +1,6 @@
 {% set name = "sphinxext-opengraph" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "5781149c1dfc306c3701661acdd02c512c2e6f21d2253487bf0b39639017fc24" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "8f145274ae7add372277f69d57fca768d2349ea9a202637f506a6fdde5808cf4" %}
 
 package:
   name: {{ name|lower }}
